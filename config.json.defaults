@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "consumer_key": "Put",
+    "consumer_secret": "Twitter",
+    "access_token_key": "credentials",
+    "access_token_secret": "here"
+  },
+  "track": [
+    "Node.js",
+    "Nodejitsu",
+    "#nodejs"
+  ],
+  "follow": [],
+  "recentTweets": [
+  
+  ]
+}

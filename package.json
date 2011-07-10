@@ -1,0 +1,23 @@
+{
+    "name": "hook.io-twitter",
+    "description": "Twitter API interaction hook for hook.io",
+    "version": "0.0.1",
+    "author": "AvianFlu",
+    "repository": {
+        "type": "git", 
+        "url": "http://github.com/AvianFlu/hook.io-twitter.git" 
+    },
+    "bin": {
+      "hookio-twitter": "bin/twitter"
+    },
+    "dependencies": {
+       "hook.io": "0.4.x",
+       "optimist": ">=0.2.4",
+       "prompt": "0.1.x",
+       "levenshtein": "1.0.x",
+       "colors": "0.5.x"
+     }, 
+    "engine": [
+        "node 0.4.x" 
+    ]
+}
