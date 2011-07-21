@@ -10,6 +10,7 @@
     "bin": {
       "hookio-twitter": "bin/twitter"
     },
+    "main": "./lib/twitter",
     "dependencies": {
        "hook.io": "0.4.x",
        "optimist": ">=0.2.4",
