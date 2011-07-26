@@ -1,11 +1,11 @@
 {
     "name": "hook.io-twitter",
-    "description": "Twitter API interaction hook for hook.io",
-    "version": "0.0.1",
+    "description": "Twitter API Client for hook.io",
+    "version": "0.1.0",
     "author": "AvianFlu",
     "repository": {
         "type": "git", 
-        "url": "http://github.com/AvianFlu/hook.io-twitter.git" 
+        "url": "http://github.com/hookio/twitter.git" 
     },
     "bin": {
       "hookio-twitter": "bin/twitter"
