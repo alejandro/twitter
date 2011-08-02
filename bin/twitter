@@ -1,16 +1,8 @@
 #!/usr/bin/env node
-var Twitter = require('../lib/twitter').Twitter,
-	argv = require('optimist').argv,
-	useShell = (argv.s || argv.shell) ? true : false,
-	autoFollow = (argv.f || argv.follow) ? true : false;
+var Twitter = require('../lib/twitter').Twitter;
 
 var twitter = new Twitter( {
   name: 'twitter',
-  twitFilter: 30,
-  tweetsToSave: 100,
-  autoFollow: autoFollow,
-  twitMethod: 'statuses/filter',
-  useShell: useShell
 });
 
 twitter.start();
