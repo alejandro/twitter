@@ -81,3 +81,15 @@ Twitter stream filtering is an imperfect and ongoing process - suggestions are a
   "recentTweets": []
 }
 ```
+## Command-line Usage
+
+Hook.io Twitter ships with a simple CLI interface.  To get started:
+
+     bin/twitter --shell
+
+Some example commands:
+
+     tweet Hi everybody, I'm using a CLI Twitter client!
+     report bigspammer5
+     follow bestfriend454
+     exit
