@@ -55,3 +55,29 @@ The public Twitter feed is a lot of data, even with a seemingly narrow list of s
 
 Twitter stream filtering is an imperfect and ongoing process - suggestions are always welcome.
 
+## Hook config.json settings
+
+```javascript
+{
+  "auth": {
+    "twitter": {
+      "consumer_key": "twitter",
+      "consumer_secret": "creds",
+      "access_token_key": "go",
+      "access_token_secret": "here"
+    },
+    "bitly": {
+      "user": "for shortlinks",
+      "key": "if you want them"
+    }
+  },
+  "track": [
+    "Node.js",
+    "Nodejitsu",
+    "#nodejs",
+    "NodeKohai"
+  ],
+  "follow": [],
+  "recentTweets": []
+}
+```
