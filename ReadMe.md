@@ -8,9 +8,37 @@ Hook.io Twitter is a wrapper around the most commonly used parts of [ntwitter](h
       cd twitter
       npm install
 
-## Hook.io Event Names
 
-### Events listened for:
+
+## Installation
+
+     git clone git@github.com:hookio/twitter.git
+     cd irc
+     npm install
+     node bin/twitter
+
+### Using NPM
+
+    npm install hook.io-twitter
+    hookio-twitter
+
+
+### Command-line Usage
+
+Hook.io Twitter ships with a simple CLI interface.  To get started:
+
+     bin/twitter --shell
+
+Some example commands:
+
+     tweet Hi everybody, I'm using a CLI Twitter client!
+     report bigspammer5
+     follow bestfriend454
+     exit
+
+## Hook Event Names
+
+### Events Listeners:
 
 **tweet** *message* - Tweets [message] from the configured Twitter account.
 
@@ -55,9 +83,9 @@ The public Twitter feed is a lot of data, even with a seemingly narrow list of s
 
 Twitter stream filtering is an imperfect and ongoing process - suggestions are always welcome.
 
-## Hook config.json settings
+### Hook config.json settings
 
-```javascript
+```js
 {
   "auth": {
     "twitter": {
@@ -81,15 +109,3 @@ Twitter stream filtering is an imperfect and ongoing process - suggestions are a
   "recentTweets": []
 }
 ```
-## Command-line Usage
-
-Hook.io Twitter ships with a simple CLI interface.  To get started:
-
-     bin/twitter --shell
-
-Some example commands:
-
-     tweet Hi everybody, I'm using a CLI Twitter client!
-     report bigspammer5
-     follow bestfriend454
-     exit
