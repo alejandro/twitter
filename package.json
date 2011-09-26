@@ -18,7 +18,8 @@
        "levenshtein": "1.0.x",
        "colors": "0.5.x",
        "ntwitter": "0.2.x",
-       "languagedetect": "0.0.x"
+       "languagedetect": "0.0.x",
+       "bitly": "1.0.1"
      }, 
     "engine": [
         "node 0.4.x" 
