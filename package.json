@@ -1,7 +1,7 @@
 {
     "name": "hook.io-twitter",
     "description": "Twitter API Client for hook.io",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "AvianFlu",
     "repository": {
         "type": "git", 
@@ -19,7 +19,7 @@
        "colors": "0.5.x",
        "ntwitter": "0.2.x",
        "languagedetect": "0.0.x",
-       "bitly": "1.0.1"
+       "bitly": "1.0.x"
      }, 
     "engine": [
         "node 0.4.x" 
