@@ -56,11 +56,11 @@ Some example commands:
 
 ### Events Emitted:
 
-**twitVerified** - Your Twitter API credentials have been approved.
+**twitter::verified** - Your Twitter API credentials have been approved.
 
-**connecting** - Starting connection to Twitter Stream API.
+**twitter::connecting** - Starting connection to Twitter Stream API.
 
-**streamConnected** - Streaming API connection started.
+**twitter::connected** - Streaming API connection started.
 
 **keptTweet** *message* - An incoming tweet has cleared all filters, and is being shared.
 
