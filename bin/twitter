@@ -2,7 +2,7 @@
 var Twitter = require('../lib/twitter').Twitter;
 
 var twitter = new Twitter( {
-  name: 'twitter',
+  name: 'twitter-hook',
   debug: true
 });
 
